@@ -26,7 +26,7 @@ const Layout = () => {
     >
       <div
         ref={parent}
-        className='flex h-[calc(100vh-10rem)] min-h-96 w-full max-w-xl flex-col rounded-xl bg-white shadow-xl transition-width'
+        className='flex h-[calc(100vh-10rem)] max-h-[780px] min-h-96 w-full max-w-xl flex-col rounded-xl bg-white shadow-xl transition-width'
       >
         <Suspense
           fallback={

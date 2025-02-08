@@ -25,7 +25,6 @@ export default ({ mode }) => {
         },
         input: {
           main: resolve(__dirname, 'index.html'),
-          login: resolve(__dirname, 'login.html'),
         },
         output: {
           entryFileNames: `assets/[name].js`,
